@@ -1,0 +1,61 @@
+.menu a {
+    color: darkslateblue;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.goods {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.goods + ul {
+    list-style-type: armenian;
+    list-style-image: url(../img/blender-software.png);
+    color: darkgreen;
+}
+
+.short_descr {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_descr {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+input[type='text'], input[type=email], textarea {
+    width: 500px;
+    color: darkblue;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+input[type='submit'] {
+    align: right;
+}
+
+img {
+    border-radius: 8px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
